@@ -1,6 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{B4878F5F-8AB1-4D6B-8454-41A7C896EF34}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\Work MediatR.png = Docs\Work MediatR.png
+		Docs\User Aggregate.png = Docs\User Aggregate.png
+		Docs\Sulotion Design.png = Docs\Sulotion Design.png
+		Docs\Seller Aggregate.png = Docs\Seller Aggregate.png
+		Docs\Role Aggregate.png = Docs\Role Aggregate.png
+		Docs\Product Aggregate.png = Docs\Product Aggregate.png
+		Docs\Other Aggregate.png = Docs\Other Aggregate.png
+		Docs\Order Aggregate.png = Docs\Order Aggregate.png
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{F73DCAA2-B547-4C84-ADB7-DC7915C47A5D}"
 EndProject
