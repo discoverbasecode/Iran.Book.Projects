@@ -26,6 +26,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Application", "Fr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Infrastructure", "Framework\Framework.Infrastructure\Framework.Infrastructure.csproj", "{B4F01A5D-49A8-4675-B3D4-ECAB60B667A0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User Modules", "User Modules", "{E1802E12-DBD7-4050-BAE7-8AB3B0719A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Domain", "Modules\User.Modules\User.Domain\User.Domain.csproj", "{4D93D58A-FD5F-4476-A710-D6E06BB6FC4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +42,8 @@ Global
 		{3EF7EEA0-3F0C-4CF2-B336-AAEF4A09A139} = {C13527CA-4C80-40C1-B650-AFA4FB7849AF}
 		{E88ED79B-A84C-4F7E-9D3E-EA6A0E2AABE9} = {C13527CA-4C80-40C1-B650-AFA4FB7849AF}
 		{B4F01A5D-49A8-4675-B3D4-ECAB60B667A0} = {C13527CA-4C80-40C1-B650-AFA4FB7849AF}
+		{E1802E12-DBD7-4050-BAE7-8AB3B0719A16} = {D1633124-3FDD-48D2-9420-6EFB869B4BAC}
+		{4D93D58A-FD5F-4476-A710-D6E06BB6FC4C} = {E1802E12-DBD7-4050-BAE7-8AB3B0719A16}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3EF7EEA0-3F0C-4CF2-B336-AAEF4A09A139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -52,5 +58,9 @@ Global
 		{B4F01A5D-49A8-4675-B3D4-ECAB60B667A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4F01A5D-49A8-4675-B3D4-ECAB60B667A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4F01A5D-49A8-4675-B3D4-ECAB60B667A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D93D58A-FD5F-4476-A710-D6E06BB6FC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D93D58A-FD5F-4476-A710-D6E06BB6FC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D93D58A-FD5F-4476-A710-D6E06BB6FC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D93D58A-FD5F-4476-A710-D6E06BB6FC4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
