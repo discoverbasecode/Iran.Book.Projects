@@ -13,6 +13,7 @@
       <PackageReference Include="Konscious.Security.Cryptography.Blake2" Version="1.1.1" />
       <PackageReference Include="MediatR" Version="12.4.1" />
       <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
       <PackageReference Include="NAudio" Version="2.2.1" />
       <PackageReference Include="NAudio.WaveFormRenderer" Version="2.0.0" />
       <PackageReference Include="NAudio.WinMM" Version="2.2.1" />
