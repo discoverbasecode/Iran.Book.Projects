@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{B4878F5F-8AB1-4D6B-8454-41A7C896EF34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{F73DCAA2-B547-4C84-ADB7-DC7915C47A5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{D1633124-3FDD-48D2-9420-6EFB869B4BAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EndPoints", "EndPoints", "{F60F485F-FB60-4BAD-91CE-FFA96A738A5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{C13527CA-4C80-40C1-B650-AFA4FB7849AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Domain", "Framework\Framework.Domain\Framework.Domain.csproj", "{3EF7EEA0-3F0C-4CF2-B336-AAEF4A09A139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1633124-3FDD-48D2-9420-6EFB869B4BAC} = {F73DCAA2-B547-4C84-ADB7-DC7915C47A5D}
+		{F60F485F-FB60-4BAD-91CE-FFA96A738A5D} = {F73DCAA2-B547-4C84-ADB7-DC7915C47A5D}
+		{C13527CA-4C80-40C1-B650-AFA4FB7849AF} = {F73DCAA2-B547-4C84-ADB7-DC7915C47A5D}
+		{3EF7EEA0-3F0C-4CF2-B336-AAEF4A09A139} = {C13527CA-4C80-40C1-B650-AFA4FB7849AF}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EF7EEA0-3F0C-4CF2-B336-AAEF4A09A139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF7EEA0-3F0C-4CF2-B336-AAEF4A09A139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF7EEA0-3F0C-4CF2-B336-AAEF4A09A139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF7EEA0-3F0C-4CF2-B336-AAEF4A09A139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
