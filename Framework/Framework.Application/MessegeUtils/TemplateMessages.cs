@@ -1,8 +1,8 @@
-﻿
-namespace Framework.Application.MessegeUtils;
+﻿namespace Framework.Application.MessegeUtils;
 
 public static class TemplateMessages
 {
+    public static string invalidNationalCode = " کد ملی معتبر نیست";
     public const string Required = "وارد کردن این فیلد اجباری است";
     public const string InvalidPhoneNumber = "شماره تلفن نامعتبر است";
     public const string NotFound = "اطلاعات درخواستی یافت نشد";
