@@ -60,7 +60,7 @@ public class UserAddress : BaseEntity
 
     #region ----------------------------------------------------- Guard Method
 
-    public void Guard(string shire, string city, string postalCode, string postalAddress, string phoneNumber,
+    private void Guard(string shire, string city, string postalCode, string postalAddress, string phoneNumber,
         string nationalCode, string fullName)
     {
         NullOrEmptyDomainDataException.CheckString(shire, nameof(shire));
@@ -73,6 +73,9 @@ public class UserAddress : BaseEntity
         if (IranianNationalIdChecker.IsValid(nationalCode) == false)
             throw new InvalidDomainDataException(TemplateMessages.invalidNationalCode);
     }
+
+    public void ActiveAddress() => IsActive = true;
+    public void DeActiveAddress() => IsActive = false;
 
     #endregion
 }

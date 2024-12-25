@@ -106,7 +106,7 @@ public class User : AggregateRoot
 
     #region ------------------------------------------------------- Gurds
 
-    public void Guard(string phoneNumber, string email, IDomainUserService domainUserService)
+    private void Guard(string phoneNumber, string email, IDomainUserService domainUserService)
     {
         NullOrEmptyDomainDataException.CheckString(phoneNumber, nameof(phoneNumber));
         NullOrEmptyDomainDataException.CheckString(email, nameof(email));
@@ -124,5 +124,14 @@ public class User : AggregateRoot
             throw new InvalidDomainDataException(TemplateMessages.invalidEmail(email));
     }
 
+    #endregion
+
+    #region ------------------------------------------------------- Methods Role 
+    public void SetRole(List<UserRole> roles)
+    {
+        roles.ForEach(r => r.UserId = Id);
+        UserRoles.Clear();
+        UserRoles.AddRange(roles);
+    }
     #endregion
 }
